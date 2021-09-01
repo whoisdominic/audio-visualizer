@@ -33,8 +33,8 @@ export const HelloWorld: React.FC = () => {
 				src={profileImage}
 				style={{
 					position: 'absolute',
-					width: 150,
-					height: 150,
+					width: 525,
+					height: 525,
 					borderRadius: 500,
 					zIndex: 3,
 				}}
@@ -44,10 +44,11 @@ export const HelloWorld: React.FC = () => {
 					<>
 						<div
 							style={{
-								maxWidth: 250 - Math.floor(random(10)),
-								width: 140 + item * 933.33,
-								height: 1.5,
+								maxWidth: 1350 - Math.floor(random(10)),
+								width: 500 + item * 1399.33,
+								height: 10,
 								backgroundColor: 'rgba(92, 92, 92, .833)',
+								borderRadius: 4,
 								zIndex: 0,
 								transform: `rotate(${(360 / visualization.length) * index}deg)`,
 								position: 'absolute',
@@ -55,10 +56,11 @@ export const HelloWorld: React.FC = () => {
 						/>
 						<div
 							style={{
-								maxWidth: 250 - Math.floor(random(10)),
-								width: 140 + item * 1013.33,
-								height: 1.5,
+								maxWidth: 1350 - Math.floor(random(10)),
+								width: 525 + item * 1599.33,
+								height: 10,
 								backgroundColor: 'rgba(92, 92, 92, .733)',
+								borderRadius: 4,
 								zIndex: 0,
 								transform: `rotate(${
 									15 + (360 / visualization.length) * index
@@ -68,10 +70,11 @@ export const HelloWorld: React.FC = () => {
 						/>
 						<div
 							style={{
-								maxWidth: 250 - Math.floor(random(10)),
-								width: 140 + item * 1013.33,
-								height: 1.5,
+								maxWidth: 1350 - Math.floor(random(10)),
+								width: 525 + item * 1799.33,
+								height: 10,
 								backgroundColor: 'rgba(92, 92, 92, .533)',
+								borderRadius: 4,
 								zIndex: 0,
 								transform: `rotate(${
 									Math.floor(Math.random() * 10) +
@@ -88,10 +91,11 @@ export const HelloWorld: React.FC = () => {
 					<>
 						<div
 							style={{
-								maxWidth: 250 - Math.floor(random(10)),
-								width: 140 + item * 933.33,
-								height: 1.5,
+								maxWidth: 1350 - Math.floor(random(10)),
+								width: 500 + item * 1399.33,
+								height: 10,
 								backgroundColor: 'rgba(92, 92, 92, .833)',
+								borderRadius: 4,
 								zIndex: 0,
 								transform: `rotate(${
 									-(360 / visualization.length) * index
@@ -101,10 +105,11 @@ export const HelloWorld: React.FC = () => {
 						/>
 						<div
 							style={{
-								maxWidth: 250 - Math.floor(random(10)),
-								width: 140 + item * 1013.33,
-								height: 1.5,
+								maxWidth: 1350 - Math.floor(random(10)),
+								width: 525 + item * 1599.33,
+								height: 10,
 								backgroundColor: 'rgba(92, 92, 92, .733)',
+								borderRadius: 4,
 								zIndex: 0,
 								transform: `rotate(${
 									-(360 / visualization.length) * index + 15
@@ -114,10 +119,11 @@ export const HelloWorld: React.FC = () => {
 						/>
 						<div
 							style={{
-								maxWidth: 250 - Math.floor(random(10)),
-								width: 140 + item * 1013.33,
-								height: 1.5,
+								maxWidth: 1350 - Math.floor(random(10)),
+								width: 525 + item * 1699.33,
+								height: 10,
 								backgroundColor: 'rgba(92, 92, 92, .533)',
+								borderRadius: 4,
 								zIndex: 0,
 								transform: `rotate(${
 									Math.floor(Math.random() * 10) +
